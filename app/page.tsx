@@ -1,5 +1,11 @@
+import GetSound from "./components/GetSound";
+
 function Home() {
-  return <div>Main Content</div>;
+  return (
+    <div>
+      <GetSound />
+    </div>
+  );
 }
 
 export default Home;
